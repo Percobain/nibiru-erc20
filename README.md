@@ -1,4 +1,4 @@
-# TCE Token - Nibiru ERC20 Project
+# TCE Token - Nibiru ERC20
 
 This project demonstrates the deployment of a custom ERC20 token (TCE Token) on the Nibiru blockchain testnet using Hardhat.
 
