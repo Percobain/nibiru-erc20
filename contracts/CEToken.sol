@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 contract CEToken is ERC20, Ownable {
-    constructor(address initialOwner) ERC20("CE Token", "CE") Ownable(initialOwner) {
+    constructor(address initialOwner) ERC20("CE Token", "tce") Ownable(initialOwner) {
         // Mint 1 billion tokens to the initial owner.
         // 1 billion = 1,000,000,000
         // ERC20 tokens usually have 18 decimal places.

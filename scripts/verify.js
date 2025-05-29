@@ -1,7 +1,7 @@
 const { ethers } = require("hardhat");
 
 async function main() {
-    const contractAddress = "0xc47bA4fA2B3713Fe1B1d62b5aF18B649aD36329A";
+    const contractAddress = "0x5630263676cCB2cE59Bebb8084d36d77136b8d86";
     const expectedOwner = "0x71AfE44200A819171a0687b1026E8d4424472Ff8";
     
     console.log("🔍 Manual Contract Verification on Nibiru Testnet\n");

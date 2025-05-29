@@ -1,26 +1,26 @@
-# CE Token - Nibiru ERC20 Project
+# TCE Token - Nibiru ERC20 Project
 
-This project demonstrates the deployment of a custom ERC20 token (CE Token) on the Nibiru blockchain testnet using Hardhat.
+This project demonstrates the deployment of a custom ERC20 token (TCE Token) on the Nibiru blockchain testnet using Hardhat.
 
 ## Contract Information
 
-- **Contract Address**: `0xc47bA4fA2B3713Fe1B1d62b5aF18B649aD36329A`
+- **Contract Address**: `0x5630263676cCB2cE59Bebb8084d36d77136b8d86`
 - **Network**: Nibiru Testnet (Chain ID: 6911)
 - **Token Name**: CE Token
-- **Token Symbol**: CE
-- **Total Supply**: 1,000,000,000 CE tokens
+- **Token Symbol**: tce
+- **Total Supply**: 1,000,000,000 tce tokens
 - **Decimals**: 18
-- **Explorer**: [View on NibiScan](https://testnet.nibiscan.io/token/0xc47bA4fA2B3713Fe1B1d62b5aF18B649aD36329A?type=erc20)
+- **Explorer**: [View on NibiScan](https://testnet.nibiscan.io/token/0x5630263676cCB2cE59Bebb8084d36d77136b8d86?type=erc20)
 
 ## Features
 
-The CE Token contract includes the following functionality:
+The TCE Token contract includes the following functionality:
 
 - **Standard ERC20**: Full ERC20 compliance with transfer, approve, and allowance functions
 - **Minting**: Owner can mint new tokens to any address
 - **Burning**: Users can burn their own tokens or burn from approved addresses
 - **Owner Controls**: Only the contract owner can mint tokens and withdraw stuck tokens
-- **Token Recovery**: Functions to recover mistakenly sent tokens (both CE and other ERC20 tokens)
+- **Token Recovery**: Functions to recover mistakenly sent tokens (both TCE and other ERC20 tokens)
 
 ## Quick Start
 
@@ -89,7 +89,7 @@ npx hardhat run scripts/verify.js --network nibiruTestnet
 ### Owner-Only Functions
 
 - `mint(address to, uint256 amount)`: Mint new tokens to specified address
-- `withdrawStuckCE()`: Withdraw CE tokens sent to contract address
+- `withdrawStuckTCE()`: Withdraw TCE tokens sent to contract address
 - `withdrawStuckERC20(IERC20 tokenContract)`: Withdraw other ERC20 tokens sent to contract
 
 ## Network Configuration
